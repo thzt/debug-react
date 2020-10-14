@@ -13,6 +13,11 @@ function App() {
       return s + 1;
     });
     debugger;
+    setState(s => {
+      debugger;
+      return s + 2;
+    });
+    debugger;
   };
 
   debugger;
